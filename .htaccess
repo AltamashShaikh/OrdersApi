@@ -1,0 +1,3 @@
+Options +FollowSymlinks
+RewriteEngine On
+RewriteRule    ^orders/?$    add_order.php    [NC,L]    # Handle product requests
